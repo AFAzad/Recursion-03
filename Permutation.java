@@ -1,4 +1,5 @@
 public class Permutation {
+    // Time complexity : O(n)
     public static void printPermutation(String str, String permutation){
         if(str.length() ==0){
             System.out.println(permutation);
